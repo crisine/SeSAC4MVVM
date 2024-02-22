@@ -13,6 +13,8 @@
 		FABE45872B87E6D90045B88A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABE45852B87E6D90045B88A /* Main.storyboard */; };
 		FABE45892B87E6DA0045B88A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABE45882B87E6DA0045B88A /* Assets.xcassets */; };
 		FABE458C2B87E6DA0045B88A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABE458A2B87E6DA0045B88A /* LaunchScreen.storyboard */; };
+		FABE45952B8802570045B88A /* NumberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABE45942B8802570045B88A /* NumberViewModel.swift */; };
+		FABE45972B8803190045B88A /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABE45962B8803190045B88A /* Observable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FABE45882B87E6DA0045B88A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FABE458B2B87E6DA0045B88A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FABE458D2B87E6DA0045B88A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FABE45942B8802570045B88A /* NumberViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberViewModel.swift; sourceTree = "<group>"; };
+		FABE45962B8803190045B88A /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		FABE457E2B87E6D90045B88A /* SeSAC4MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				FABE45982B8804490045B88A /* Define */,
+				FABE45932B8802450045B88A /* ViewModel */,
 				FABE457F2B87E6D90045B88A /* AppDelegate.swift */,
 				FABE45812B87E6D90045B88A /* SceneDelegate.swift */,
 				FABE45832B87E6D90045B88A /* ViewController.swift */,
@@ -65,6 +71,22 @@
 				FABE458D2B87E6DA0045B88A /* Info.plist */,
 			);
 			path = SeSAC4MVVM;
+			sourceTree = "<group>";
+		};
+		FABE45932B8802450045B88A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FABE45942B8802570045B88A /* NumberViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FABE45982B8804490045B88A /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				FABE45962B8803190045B88A /* Observable.swift */,
+			);
+			path = Define;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FABE45842B87E6D90045B88A /* ViewController.swift in Sources */,
+				FABE45972B8803190045B88A /* Observable.swift in Sources */,
+				FABE45952B8802570045B88A /* NumberViewModel.swift in Sources */,
 				FABE45802B87E6D90045B88A /* AppDelegate.swift in Sources */,
 				FABE45822B87E6D90045B88A /* SceneDelegate.swift in Sources */,
 			);
