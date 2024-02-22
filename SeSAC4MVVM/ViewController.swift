@@ -9,11 +9,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var numberTextField: UITextField!
+    @IBOutlet weak var validationLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        numberTextField.addTarget(self, action: #selector(didNumberTextFieldEditingChanged), for: .editingChanged)
     }
-
-
+    
+    @objc private func didNumberTextFieldEditingChanged(sender: UITextField) {
+        
+    }
 }
 
